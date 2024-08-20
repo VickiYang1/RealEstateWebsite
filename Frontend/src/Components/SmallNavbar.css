@@ -1,0 +1,70 @@
+.small-navbar-container {
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(244, 244, 244, 0.73);
+}
+
+
+.small-navbar-links {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative; 
+}
+
+.small-navbar-links::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: black;
+    transition: width 0.3s ease;
+    transition-delay: 0.1s; 
+}
+
+.small-navbar-links:hover::after {
+    width: 100%; 
+    left: 0;
+}
+
+.small-navbar-links:hover {
+    opacity: 70%;
+    transition: all 0.3s ease;
+}
+
+.small-navbar-name{
+    margin-right:10px;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black
+}
+ 
+.small-navbar-login{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    color:black
+}
+
+.small-navbar-login:hover{
+    opacity: 70%;
+}

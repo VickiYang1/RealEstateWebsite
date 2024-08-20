@@ -1,0 +1,71 @@
+.navbar-container {
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 20%;
+    justify-content: center;
+    background-image: url('./images/home-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.navbar-links {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    position: relative; 
+}
+
+.navbar-links::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: aliceblue;
+    transition: width 0.3s ease;
+    transition-delay: 0.1s; 
+}
+
+.navbar-links:hover::after {
+    width: 100%; 
+    left: 0;
+}
+
+.navbar-links:hover {
+    opacity: 70%;
+    transition: all 0.3s ease;
+}
+
+.navbar-name{
+    margin-right:10px;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue
+}
+ 
+.navbar-login{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    color:aliceblue
+}
+
+.navbar-login:hover{
+    opacity: 70%;
+}

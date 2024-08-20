@@ -1,0 +1,19 @@
+.listing-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+}
+
+.listing-title{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+.requesting{
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+    margin-left: 70%;
+    
+}
+

@@ -1,0 +1,42 @@
+.login{
+    background-image: url('./images/brooklyn-bridge.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    overflow: hidden; 
+    height: 100vh;
+}
+.login-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto; 
+    margin-top:15%;
+    border-style: solid;
+    border-radius:2%;
+    border-width: 2px;
+    padding: 3%;
+    align-items: center;
+    width:15%; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.login-title{
+    font-size: 36px;
+    margin-bottom:40px;
+}
+
+.login-input{
+    width: 80%;
+    border-color: white;
+    font-size: 16px;
+    border: 2px solid;
+    border: 2px solid white;
+}
+
+.login-btn{
+    width: 100px;
+    border-width: 2px;
+    font-size: 20px;
+    border-color: white;
+}

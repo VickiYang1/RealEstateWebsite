@@ -1,0 +1,56 @@
+.Edit-Page {
+    display: flex;
+    margin-top: 2%;
+}
+
+.sidebar {
+    background-color: grey;
+    width: 12%;
+    height: 200%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Edit-container {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px;
+}
+
+.Title {
+    font-size: 30px;
+    padding: 10%;
+}
+
+.subHeading {
+    font-size: 24px;
+    padding: 8%;
+    cursor: pointer; 
+    transition: background-color 0.3s, filter 0.3s; 
+}
+
+.subHeading:hover {
+    filter: brightness(80%);
+    background-color: rgb(139, 139, 139);
+}
+
+.subHeading.active {
+    filter: brightness(80%);
+    background-color: rgb(100, 100, 100); 
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: grey;
+    font-family: inherit;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+}
+
+.Edit-Main-Content {
+    margin-left: 3%;
+    width: 88%;
+}
